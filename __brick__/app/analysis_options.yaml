@@ -1,0 +1,12 @@
+include: package:surf_lint_rules/analysis_options.yaml
+
+analyzer:
+  exclude:
+    - "**.g.dart"
+    - "**.mocks.dart"
+    - "**.gr.dart"
+
+linter:
+  # lowercase_with_underscores: false
+  rules:
+    lowercase_with_underscores: false
